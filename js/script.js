@@ -36,8 +36,8 @@ document.getElementById("outputD5").innerHTML = "";
     }
 
 function changeTextRobo(){
-    document.getElementById("outputD").innerHTML = "RoboMiner is a small game I made in about 3 weeks for an assignment when I was in tech school. It was made in Unity, and all sprites were drawn by me in Piskel. It was a good experience in learning more about pixel art. It was completed June 7th, 2023. Link to play: https://simmer.io/@Generic_User/robominer";
-        document.getElementById("outputD2").innerHTML = "";
+    document.getElementById("outputD").innerHTML = "RoboMiner is a small game I made in about 3 weeks for an assignment when I was in tech school. It was made in Unity, and all sprites were drawn by me in Piskel. It was a good experience in learning more about pixel art. It was completed June 7th, 2023.";
+        document.getElementById("outputD2").innerHTML = "<a href=https://simmer.io/@Generic_User/robominer>Game Link</a>";
     document.getElementById("outputD3").innerHTML = "";
     document.getElementById("outputD4").innerHTML = "";
     document.getElementById("outputD5").innerHTML = "";
@@ -55,18 +55,18 @@ function changeTextVamp(){
         document.getElementById("lbImage").title= "VampireGameModels";
         document.getElementsByClassName("lb-caption").innerHTML= "VampireGameModels";
                 }
-function changeTextCrab2(){
-    document.getElementById("outputD").innerHTML = "This is a character I modeled in my Advanced 3D Modeling class last semester. It was created off of concept art by Jae Park, which can be found here: https://cara.app/post/7f8674c4-d57a-47fb-8d24-018e5f163417";
+function changeTextCrabMan(){
+    document.getElementById("outputD").innerHTML = "This is a character I modeled in my Advanced 3D Modeling class last semester. It was created off of concept art by Jae Park (linked below)";
         document.getElementById("outputD2").innerHTML = "It was a valuable experience in working off of the concept art of another person. It was modeled in Zbrush, retopologized in Maya, textured in Adobe Substance Painter, and rendered in Unreal Engine. Completed December 17th, 2024.";
-    document.getElementById("outputD3").innerHTML = "";
+    document.getElementById("outputD3").innerHTML = "<a href=https://cara.app/post/7f8674c4-d57a-47fb-8d24-018e5f163417>Jae Park Link</a>";
     document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Bipedal Crustacean Model";
     document.getElementById("lbImage").title= "BipedalCrustaceanModel";
     document.getElementsByClassName("lb-caption").innerHTML= "BipedalCrustaceanModel";
                                 }
-function changeTextWalk(){
-    document.getElementById("outputD").innerHTML = "This is a basic walk cycle I put together last semester. It was made using the Ultimate Bony character rig provided to me by Jesse O’Brien, and the original creator of it seems to be Ugur Ulvi Yetiskin (https://www.highend3d.com/maya/downloads/character-rigs/c/ultimate-bony-for-maya). This piece acts as a good example of my ability to do standard animations in Maya.";
-    document.getElementById("outputD2").innerHTML = "";
+function changeTextWalking(){
+    document.getElementById("outputD").innerHTML = "This is a basic walk cycle I put together last semester. It was made using the Ultimate Bony character rig provided to me by Jesse O’Brien, and the original creator of it seems to be Ugur Ulvi Yetiskin (linked below). This piece acts as a good example of my ability to do standard animations in Maya.";
+    document.getElementById("outputD2").innerHTML = "<a href=https://www.highend3d.com/maya/downloads/character-rigs/c/ultimate-bony-for-maya>Yetiskin Link</a>";
     document.getElementById("outputD3").innerHTML = "";
     document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Maya Walk Cycle";
