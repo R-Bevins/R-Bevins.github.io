@@ -34,6 +34,43 @@ document.getElementById("outputD5").innerHTML = "";
     document.getElementById("lbImage").title= "Dragon Kidnapping";
     document.getElementsByClassName("lb-caption").innerHTML= "Dragon Kidnapping";
     }
+
+function changeTextRobo(){
+    document.getElementById("outputD").innerHTML = "RoboMiner is a small game I made in about 3 weeks for an assignment when I was in tech school. It was made in Unity, and all sprites were drawn by me in Piskel. It was a good experience in learning more about pixel art. It was completed June 7th, 2023. Link to play: https://simmer.io/@Generic_User/robominer";
+        document.getElementById("outputD2").innerHTML = "";
+    document.getElementById("outputD3").innerHTML = "";
+    document.getElementById("outputD4").innerHTML = "";
+    document.getElementById("outputD5").innerHTML = "";
+        document.getElementById("outputN").innerHTML ="RoboMiner";
+        document.getElementById("lbImage").title= "RoboMiner";
+        document.getElementsByClassName("lb-caption").innerHTML= "RoboMiner";
+        }
+function changeTextVamp(){
+    document.getElementById("outputD").innerHTML = "These are some assets I made for a classmate in that previously mentioned tech school program who was looking to do a low-poly vampire game for their assignment. It was a good learning experience for working off the design requests and feedback of another person to create a product they’re happy with. All of the modeling and texturing was done in Blender. Completed May 14th, 2023";
+        document.getElementById("outputD2").innerHTML = "";
+    document.getElementById("outputD3").innerHTML = "";
+    document.getElementById("outputD4").innerHTML = "";
+    document.getElementById("outputD5").innerHTML = "";
+        document.getElementById("outputN").innerHTML ="Vampire Game Models";
+        document.getElementById("lbImage").title= "VampireGameModels";
+        document.getElementsByClassName("lb-caption").innerHTML= "VampireGameModels";
+                }
+function changeTextCrab2(){
+    document.getElementById("outputD").innerHTML = "This is a character I modeled in my Advanced 3D Modeling class last semester. It was created off of concept art by Jae Park, which can be found here: https://cara.app/post/7f8674c4-d57a-47fb-8d24-018e5f163417";
+        document.getElementById("outputD2").innerHTML = "It was a valuable experience in working off of the concept art of another person. It was modeled in Zbrush, retopologized in Maya, textured in Adobe Substance Painter, and rendered in Unreal Engine. Completed December 17th, 2024.";
+    document.getElementById("outputD3").innerHTML = "";
+    document.getElementById("outputD5").innerHTML = "";
+    document.getElementById("outputN").innerHTML ="Bipedal Crustacean Model";
+    document.getElementById("lbImage").title= "BipedalCrustaceanModel";
+    document.getElementsByClassName("lb-caption").innerHTML= "BipedalCrustaceanModel";
+                                }
+function changeTextWalk(){
+    document.getElementById("outputD").innerHTML = "This is a basic walk cycle I put together last semester. It was made using the Ultimate Bony character rig provided to me by Jesse O’Brien, and the original creator of it seems to be Ugur Ulvi Yetiskin (https://www.highend3d.com/maya/downloads/character-rigs/c/ultimate-bony-for-maya). This piece acts as a good example of my ability to do standard animations in Maya.";
+    document.getElementById("outputD2").innerHTML = "";
+    document.getElementById("outputD3").innerHTML = "";
+    document.getElementById("outputD5").innerHTML = "";
+    document.getElementById("outputN").innerHTML ="Maya Walk Cycle";
+        }
 function changeTextFish(){
 document.getElementById("outputD").innerHTML = "One of my projects that I’m most proud of is an ocean animation I made in my Computer Animation and Web Design class at the Center for Technology, Essex, in 2022 called Swordfish’s Duel. It was a two week long project to practice storytelling and animation using the ocean as the setting and using aquatic creatures as characters. My animation ended up being about two fish battling cyborg fish and a sea bunny in order to free some crabs.";
 document.getElementById("outputD2").innerHTML = "Before this project actually began, everyone in my class modeled and rigged a fish along with modeling 3 coral assets. Then, everyone’s fish and coral models were copied to a shared Google Drive folder so we could all use each other's assets. After picking out assets to use, I drew out the storyboard for the animation. Then, I started setting up the scene and environment in Blender. From there, I started actually animating it all. When the animation was done, I rendered it out and started editing in Adobe Premiere Pro. Most of the editing was working on sound design using sound effects from freesound.org. Once that was all done, I exported the video and submitted the assignment.";

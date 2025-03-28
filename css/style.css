@@ -147,9 +147,16 @@ body{
     border-top: 10px solid #218367;
     border-bottom: 10px solid #218367;
 }
+
 iframe{
     width: 100%;
     height: 100%;
+}
+#robo{
+    width: 100%;
+}
+#imageLink{
+    max-width: 150px;
 }
 #mainImageDisplay{
     display: block;
@@ -160,7 +167,7 @@ iframe{
     box-sizing: border-box;
 }
 .imgMenu{
-    width: 450px;
+    width: 610px;
     border: 5px solid #218367;
     background: #218367;
 }
