@@ -214,7 +214,7 @@ document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Kirby Animation";
     }
 function changeTextCow(){
-    document.getElementById("outputD").innerHTML = "My 2025 demo reel. Completed December 2, 2025.";
+    document.getElementById("outputD").innerHTML = "My 2025 demo reel. Completed December 2, 2025. It contains snippets of various projects on this site in full, such as Meat  Cute, Crab Grave, and Dialogue Practice.";
     document.getElementById("outputD2").innerHTML = "";
 document.getElementById("outputD3").innerHTML = "";
 document.getElementById("outputD4").innerHTML = "";
@@ -245,5 +245,6 @@ document.getElementById("outputD4").innerHTML = "";
 document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Path of Orange";
 }
+
 
 
