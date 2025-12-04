@@ -214,12 +214,12 @@ document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Kirby Animation";
     }
 function changeTextCow(){
-    document.getElementById("outputD").innerHTML = "This was a picture I took of some cows from a local farm. It was done for a Vermont themed photography assignment and I figured that cows would be the perfect subjects for one of them.";
+    document.getElementById("outputD").innerHTML = "My 2025 demo reel. Completed December 2, 2025.";
     document.getElementById("outputD2").innerHTML = "";
 document.getElementById("outputD3").innerHTML = "";
 document.getElementById("outputD4").innerHTML = "";
 document.getElementById("outputD5").innerHTML = "";
-    document.getElementById("outputN").innerHTML ="Cow Collective";
+    document.getElementById("outputN").innerHTML ="Demo Reel";
     }
 function changeTextZero(){
     document.getElementById("outputD").innerHTML = "A modeling timelapse I did of Zero from the Mega Man Zero series. The footage had to be extremely sped up for the timelapse since my teacher wanted timelapses to be around a minute and a half. However, I had about 15 hours of footage, so it became a bit hard to follow in the final video.";
@@ -245,4 +245,5 @@ document.getElementById("outputD4").innerHTML = "";
 document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Path of Orange";
 }
+
 
