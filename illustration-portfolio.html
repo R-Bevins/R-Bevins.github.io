@@ -8,7 +8,7 @@
     <meta name="keywords" content="Blender, Photographer, Animator, Modeler, drawing, animation, timelapse, photo">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="js/script.js">
+    <script src="js/script2.js">
         
     </script>
     <link href="css/lightbox.css" rel="stylesheet" />
@@ -41,55 +41,48 @@
     <section class="flex">
         <!-- image display -->
     <section class="displaySize imgDisplay" id="mainImageDisplay">
-        <a id="lbImage" onclick='changeCaption();' href="images/portfolioArt/Drawings/buildings.jpg" title="3-Point Perspective Buildings" data-lightbox="image-1" data-title="Main Display Image"><img id="img" src="images/portfolioArt/Drawings/buildings.jpg" class="sizeMax" alt="A 3 point perspective city-scape drawn in pencil"></a>
+        <a id="lbImage" onclick='changeCaption();' href="images/mangaPortfolio/ActionPage.png" title="Right to Left - Action Page" data-lightbox="image-1" data-title="Main Display Image"><img id="img" src="images/mangaPortfolio/ActionPage.png" class="sizeMax" alt="my drawing of an action manga page"></a>
     </section>
     <!-- video display -->
     <section class="displaySize vidDisplay" id="mainVideoDisplay">
-        <iframe id="video" src="images/buildingsDrawingThumbnail.jpg"></iframe>
+        <iframe id="video" src="images/mangaPortfolio/ActionPageThumbnail.png"></iframe>
     </section>
     <!-- display menu -->
     <nav id="thumb" class="row imgMenu">
-        <img class="col-sm-4 col-4" src="images/buildingsDrawingThumbnail.jpg" alt="thumbnail for my drawing of a cityscape" id="city" onclick='changeImage("images/portfolioArt/Drawings/buildings.jpg");changeTextCity();changeAlt("A 3 point perspective city-scape drawn in pencil")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/ActionPageThumbnail.png" alt="thumbnail for my drawing of an action manga page" id="city" onclick='changeImage("images/mangaPortfolio/ActionPage.png");changeTextCity();changeAlt("my drawing of an action manga page")'>
 
-        <img class="col-sm-4 col-4" src="images/dragonComicThumbnail.png" alt="thumbnail for a comic about a dragon" id="dragon" onclick='changeImage("images/portfolioArt/Drawings/dragonKidnapping.png");changeTextDragon();changeAlt("A comic about kidnapping involving a princess and a dragon with the twist being that the princess kidnapped the dragon.")'>
+        <img class="col-sm-4 col-3" src="images/dragonComicThumbnail.png" alt="thumbnail for a comic about a dragon" id="dragon" onclick='changeImage("images/portfolioArt/Drawings/dragonKidnapping.png");changeTextDragon();changeAlt("A comic about kidnapping involving a princess and a dragon with the twist being that the princess kidnapped the dragon.")'>
 
-        <img class="col-sm-4 col-4" src="images/clockFullThumbnail.png" alt="thumbnail for a drawing of a decompiled and recompiled clock" id="clock" onclick='changeImage("images/portfolioArt/Drawings/clockFull.png");changeTextClock();changeAlt("A drawing of a clock made of pieces of an analogue and digital clock.")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/ComicCOMBINEDThumbnail.png" alt="thumbnail for a comic about a skeleton and a boy" id="clock" onclick='changeImage("images/mangaPortfolio/comicCOMBINED.png");changeTextClock();changeAlt("A comic about a skeleton and a boy.")'>
 
-        <img class="col-sm-4 col-4" src="images/mdwThumbnail.png" alt="thumbnail for Mother Ducking Witch drawing" id="duck" onclick='changeImage("images/portfolioArt/Drawings/motherDuckingWitch.png");changeTextMWD();changeAlt("A mother duck who is a witch getting assistance from her duckling in order to make a potion")'>
+        <img class="col-sm-4 col-3" src="images/mdwThumbnail.png" alt="thumbnail for Mother Ducking Witch drawing" id="duck" onclick='changeImage("images/portfolioArt/Drawings/motherDuckingWitch.png");changeTextMWD();changeAlt("A mother duck who is a witch getting assistance from her duckling in order to make a potion")'>
 
-        <img class="col-sm-4 col-4" src="images/bevins_student_comic_thumbnail.png" alt="thumbnail for a comic about my Ethics in the Graphic Memoir class" id="ethics" onclick='changeImage("images/portfolioArt/Drawings/bevins_student_comic.jpg");changeTextEthic();changeAlt("A comic about my Ethics in the Graphic Memoir class")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/3pointperspectiveroomThumbnail.png" alt="thumbnail for a drawing of my childhood bedroom from memory." id="ethics" onclick='changeImage("images/mangaPortfolio/3pointperspectiveroom.jpg");changeTextEthic();changeAlt("A drawing of my childhood bedroom from memory.")'>
 
-        <img class="col-sm-4 col-4" src="images/boxingComicThumbnail.png" alt="thumbnail for a comic about a guy boxing an inflateable clown" id="boxing" onclick='changeImage("images/portfolioArt/Drawings/boxingComic.png");changeTextBoxing();changeAlt("A comic where a boxer fights an inflateable clown and loses")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/MD3FinThumbnail.png" alt="thumbnail for a comic about two guys fighting." id="boxing" onclick='changeImage("images/mangaPortfolio/MD3Fin.png");changeTextBoxing();changeAlt("A comic where a boxer fights an inflateable clown and loses")'>
 
-        <img class="col-sm-4 col-4" src="images/sodaWarThumbnail.jpg" alt="thumbnail for a Coke vs Pepsi drawing" id="soda" onclick='changeImage("images/portfolioArt/Drawings/sodaWar.jpg");changeTextSoda();changeAlt("Coke bottle rebels fighting the Pepsi Monarchy using plastic knives and forks")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/monsterFullPageThumbnail.png" alt="thumbnail for a a one page story about a girl taming the monster under her bed." id="soda" onclick='changeImage("images/mangaPortfolio/monsterFullPage.png");changeTextSoda();changeAlt("A one page story about a girl taming the monster under her bed.")'>
 
-        <img class="col-sm-4 col-4" src="images/bestOfInktoberThumbnail.png" alt="thumbnail for my 4 best pieces from Inktober 2024" id="inktober" onclick='changeImage("images/portfolioArt/Drawings/bestOfInktober.png");changeTextInktober();changeAlt("My 4 best pieces from Inktober 2024, all drawn in Microsoft Paint using a laptop trackpad")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/twodinipage5Thumbnail.png" alt="thumbnail for a comic about a magican fooling wizards." id="inktober" onclick='changeImage("images/mangaPortfolio/twodinipage5.png");changeTextInktober();changeAlt("a comic about a magican fooling wizards")'>
 
-        <img class="col-sm-4 col-4" src="images/stickynotesThumbnail.png" alt="thumbnail for my wall of stickynote doodles" id="sticky" onclick='changeImage("images/portfolioArt/Drawings/stickynotes.jpg");changeTextSticky();changeAlt("A wall of stickynote doodles I drew")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/imaginationThumbnail.png" alt="thumbnail for a bunch of doodles drawn to various colors." id="sticky" onclick='changeImage("images/mangaPortfolio/imagination.png");changeTextSticky();changeAlt("A bunch of doodles drawn to various colors.")'>
 
-        <img class="col-sm-4 col-4" src="images/fruitBowlThumbnail.png" alt="thumbnail for a drawing of a bowl of fruit + a potato" id="fruit" onclick='changeImage("images/portfolioArt/Drawings/fruitBowlPlusPotato.png");changeTextFruit();changeAlt("a drawing of a bowl of fruit + a potato")'>
+        <img class="col-sm-4 col-3" src="images/fruitBowlThumbnail.png" alt="thumbnail for a drawing of a bowl of fruit + a potato" id="fruit" onclick='changeImage("images/portfolioArt/Drawings/fruitBowlPlusPotato.png");changeTextFruit();changeAlt("a drawing of a bowl of fruit + a potato")'>
 
-        <img class="col-sm-4 col-4" src="images/catHellThumbnail.png" alt="thumbnail for a drawing of the grim reaper surprised as a cat rides a roomba into hell" id="cat" onclick='changeImage("images/portfolioArt/Drawings/catHell.jpg");changeTextCat();changeAlt("a drawing of the grim reaper surprised as a cat rides a roomba into hell")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/4KomasThumbnail.png" alt="thumbnail for a collection of yonkomas I drew" id="cat" onclick='changeImage("images/mangaPortfolio/4komas.png");changeTextCat();changeAlt("a collection of yonkomas I drew")'>
 
-        <img class="col-sm-4 col-4" src="images/bevinsDH15yThumbnail.png" alt="thumbnail for a drawing of a city corner" id="corner" onclick='changeImage("images/portfolioArt/Drawings/bevinsDH15y.jpg");changeTextCorner();changeAlt("a drawing of a city corner")'>
+        <img class="col-sm-4 col-3" src="images/mangaPortfolio/SNAILHARECOMICThumbnail.png" alt="thumbnail for a drawing of a city corner" id="corner" onclick='changeImage("images/mangaPortfolio/SNAILHARECOMIC.png");changeTextCorner();changeAlt("a drawing of a city corner")'>
 
-        <a href="https://drive.google.com/file/d/1ANQtYQmlc8AINYMKA3zzN36SogrRqu7w/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="imageLink" class="col-sm-4 col-4"><img src="images/page1Thumbnail.png" alt="thumbnail for a comic I drew about a magican at a wizard academy" id="magic" onclick='changeImage("images/portfolioArt/Drawings/magicianPageSample.png");changeTextMagic();changeAlt("a comic I drew about a magican at a wizard academy")'></a>
-
-        <img class="col-sm-4 col-4" src="images/bevinsDH12_1Thumbnail.png" alt="thumbnail of a one point perspective fantasy town drawing" id="fantasy" onclick='changeImage("images/portfolioArt/Drawings/bevinsDH12_1.jpg");changeTextFantasy();changeAlt("a one point perspective fantasy town drawing")'>
-
-       <img class="col-sm-4 col-4" src="images/selfPortraitThumbnail.png" alt="thumbnail for a self portrait I drew" id="Ryan" onclick='changeImage("images/portfolioArt/Drawings/selfPortrait.jpg");changeTextRyan();changeAlt("a self portrait I drew")'>
-
-        <img class="col-sm-4 col-4" src="images/bevinsDH23FinalThumbnail.png" alt="thumbnail for a drawing of bottles" id="bottles" onclick='changeImage("images/portfolioArt/Drawings/bevinsDH23Final.jpg");changeTextBottles();changeAlt("A drawing of bottles")'>
     </nav>
     
 </section>
 <!-- piece description -->
 <section class="pieceDescription">
     <h1 id="outputN" class="pName">
-    3-Point Perspective City
+    Right to Left - Action Page
     </h1>
     <p id="outputD" class="pDescription">
-        This piece is a 3-point perspective city I made. It was a drawing assignment in my Computer Animation and Web Design class. It was the final assignment in our mini unit about perspective. In the previous weeks, my class had learned about 1-point and 2-point perspective, and I was very excited to learn about 3-point perspective. I ended up really liking the piece I made. I thought the use of 3-point perspective helped to make the buildings look interesting and like they're towering high up into the sky as the viewer looks down on them. It was drawn traditionally using pencils on January 16th, 2022.
+        A page I drew to practic action paneling and framing. Reads right to left. Drawn in Clip Studio Paint.
     </p>
     <br>
     <p id="outputD2" class="pDescription">
