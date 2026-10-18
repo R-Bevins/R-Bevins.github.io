@@ -125,6 +125,7 @@ document.getElementById("outputD3").innerHTML = "";
 document.getElementById("outputD4").innerHTML = "";
 document.getElementById("outputD5").innerHTML = "";
     document.getElementById("outputN").innerHTML ="Right to Left - Hare vs Snail";
+    document.getElementById("lbImage").title= "a hare racing a snail";
 }
 function changeTextRobo(){
     document.getElementById("outputD").innerHTML = "RoboMiner is a small game I made in about 3 weeks for an assignment when I was in tech school. It was made in Unity, and all sprites were drawn by me in Piskel. It was a good experience in learning more about pixel art. It was completed June 7th, 2023.";
